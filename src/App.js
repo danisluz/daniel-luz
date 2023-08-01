@@ -1,6 +1,6 @@
 import Head from "next/head";
-import "./App.css";
 import { Fragment } from "react";
+import '../src/styles/globals.css';
 import Index from '../src/pages';
 
 function App() {
