@@ -1,7 +1,5 @@
-import dynamic from "next/dynamic";
 import About from "../components/About";
 import Contact from "../components/Contact";
-import Services from "../components/Services";
 import TypingAnimation from "../components/TypingAnimation";
 import Layout from "../layout/Layout";
 const Index = () => {
@@ -23,10 +21,10 @@ const Index = () => {
                     Je suis un <TypingAnimation /> passionné!
                   </p>
                   <p className="desc">
-                    Je suis un Analyste Développeur Front-End passionné par la création d'expériences numériques incroyables et fonctionnelles pour les utilisateurs. Mon expertise inclut HTML, CSS, Sass, JavaScript, TypeScript et l'utilisation de frameworks tels que Angular et React.js. Je suis constamment à la recherche de nouveaux défis et d'opportunités pour apprendre et évoluer dans le monde de la programmation web. Ensemble, rendons le web encore plus incroyable!
+                    Je suis un Analyste Développeur Front-End passionné par la création d'expériences numériques incroyables et fonctionnelles pour les utilisateurs.
                   </p>
                   <div className="btn-bar">
-                    <a className="px-btn px-btn-theme" href="#">
+                    <a className="px-btn px-btn-theme">
                       Télécharger CV
                     </a>
                   </div>
@@ -34,7 +32,7 @@ const Index = () => {
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
-                  <img src="static/img/home-banner.png" title="" alt="" />
+                  <img src="static/img/banner-daniel.png" title="Daniel Banner" alt="daniel luz" />
                 </div>
               </div>
             </div>
@@ -46,9 +44,6 @@ const Index = () => {
       <About />
       {/* End about us */}
       {/* Services */}
-      <Services />
-      {/* End Services */}
-      {/* Portfolio */}
       <Contact />
     </Layout>
   );

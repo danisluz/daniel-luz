@@ -1,9 +1,9 @@
 import Head from "next/head";
 import { Fragment } from "react";
 import '../src/styles/globals.css';
-import Index from '../src/pages';
+import Index from './pages';
 
-function App() {
+function App({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
@@ -16,7 +16,7 @@ function App() {
           rel="stylesheet"
         />
       </Head>
-      <Index />
+      <Index {...pageProps} />
     </Fragment>
   );
 }

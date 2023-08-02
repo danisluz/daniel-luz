@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import PreLoader from "../layout/PreLoader";
-import "../src/styles/glitch.css";
-import "../src/styles/globals.css";
+import "../styles/glitch.css";
+import "../styles/globals.css";
 function MyApp({ Component, pageProps }) {
   const [load, setLoad] = useState(true);
   useEffect(() => {
@@ -14,10 +14,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
-        <title>Sergio - Portfolio Template</title>
+        <title>Daniel</title>
+        
         {/* <!-- Favicon --> */}
-
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
         {/* <!-- plugin CSS --> */}
         <link
           href="static/plugin/bootstrap/css/bootstrap.min.css"
