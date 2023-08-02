@@ -1,5 +1,6 @@
 {
-  "name": "sergio-react",
+  "name": "daniel-luz",
+  "homepage": "https://seunomeusuario.github.io/seurepositorio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "sass": "node-sass --watch public/static/scss/style.scss public/assets/css/style.css --source-map public/static/css/style.css.map",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
@@ -23,6 +25,7 @@
   },
   "devDependencies": {
     "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1"
+    "eslint-config-next": "12.3.1",
+    "gh-pages": "^5.0.0"
   }
 }
