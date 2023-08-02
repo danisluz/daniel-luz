@@ -7,11 +7,7 @@ const Layout = ({ children }) => {
   return (
     <Fragment>
       <ImageView />
-      {/* page loading */}
-      {/* End */}
-      {/* Header Start */}
       <Header />
-      {/* Main Start */}
       <main className="main-left pp-main-section">{children}</main>
       <DayNightMood />
       <BackBtn />

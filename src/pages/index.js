@@ -39,11 +39,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      {/* End Home */}
-      {/* about us */}
       <About />
-      {/* End about us */}
-      {/* Services */}
       <Contact />
     </Layout>
   );

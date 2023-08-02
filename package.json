@@ -13,11 +13,13 @@
   },
   "dependencies": {
     "emailjs-com": "^3.2.0",
+    "i18next": "^23.4.1",
     "isotope-layout": "^3.0.6",
     "next": "12.3.1",
     "node-sass": "^7.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-i18next": "^13.0.3",
     "react-tsparticles": "^2.5.3",
     "swiper": "^8.4.4",
     "tsparticles": "^2.5.3",

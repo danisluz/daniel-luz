@@ -55,6 +55,9 @@ const Header = ({ blog }) => {
           <a href="https://www.facebook.com/danielsluz" target="_blank">
             <i className="fab fa-facebook-f" />
           </a>
+          <a href="https://www.facebook.com/danielsluz" target="_blank">
+            <i className="fab fa-github" />
+          </a>
         </div>
       </header>
     </Fragment>
