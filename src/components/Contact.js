@@ -2,9 +2,9 @@ import emailjs from "emailjs-com";
 import { useState } from "react";
 const Contact = () => {
   const [mailData, setMailData] = useState({
-    non: "",
+    name: "",
     email: "",
-    sujet: "",
+    subject: "",
     message: "",
   });
   const { name, email, message, subject } = mailData;
@@ -24,16 +24,16 @@ const Contact = () => {
     } else {
       emailjs
         .send(
-          "service_seruhwu", // service id
-          "template_21aw58z", // template id
+          "service_8p3152d", // service id
+          "template_2398jih", // template id
           mailData,
-          "Q3pccdLZhU-mZT7tQ" // public api
+          "xrse7rO5XoPMQJPeH" // public api
         )
         .then(
           (response) => {
             setError(false);
             clearError();
-            setMailData({ non: "", email: "", message: "", sujet: "" });
+            setMailData({ name: "", email: "", message: "", subject: "" });
           },
           (err) => {
             console.log(err.text);

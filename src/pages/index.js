@@ -24,7 +24,7 @@ const Index = () => {
                     Je suis un Analyste Développeur Front-End passionné par la création d'expériences numériques incroyables et fonctionnelles pour les utilisateurs.
                   </p>
                   <div className="btn-bar">
-                    <a className="px-btn px-btn-theme">
+                    <a className="px-btn px-btn-theme" href="static/pdf/daniel-luz-developpeur-front-end.pdf" target="_blank">
                       Télécharger CV
                     </a>
                   </div>
