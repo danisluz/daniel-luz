@@ -485,6 +485,9 @@
 .ti-id-badge:before {
 	content: "\e699";
 }
+.ti-laptop-code:before {
+	content: "\e699";
+}
 .ti-hummer:before {
 	content: "\e69a";
 }

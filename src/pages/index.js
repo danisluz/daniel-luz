@@ -21,7 +21,7 @@ const Index = () => {
                     Je suis un <TypingAnimation /> passionné!
                   </p>
                   <p className="desc">
-                    Je suis un Analyste Développeur Front-End passionné par la création d'expériences numériques incroyables et fonctionnelles pour les utilisateurs.
+                    Je suis un analyste développeur Front-End passionné par la technologie et l'innovation, avec une solide expérience dans les domaines du design et du développement web.
                   </p>
                   <div className="btn-bar">
                     <a className="px-btn px-btn-theme" href="static/pdf/daniel-luz-developpeur-front-end.pdf" target="_blank">

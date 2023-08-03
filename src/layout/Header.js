@@ -55,7 +55,7 @@ const Header = ({ blog }) => {
           <a href="https://www.facebook.com/danielsluz" target="_blank">
             <i className="fab fa-facebook-f" />
           </a>
-          <a href="https://www.facebook.com/danielsluz" target="_blank">
+          <a href="https://github.com/danisluz" target="_blank">
             <i className="fab fa-github" />
           </a>
         </div>
@@ -70,19 +70,31 @@ const MenuWithOutBlog = () => {
     <ul className="nav nav-menu" id="pp-menu">
       <li data-menuanchor="home" className="active">
         <a className="nav-link" href="#home">
-          <i className="ti-home" />
+          {/* <i className="ti-home" /> */}
           <span>Home</span>
         </a>
       </li>
       <li data-menuanchor="about">
         <a className="nav-link" href="#about">
-          <i className="ti-id-badge" />
+          {/* <i className="ti-id-badge" /> */}
           <span>Sur moi</span>
+        </a>
+      </li>
+      <li data-menuanchor="education">
+        <a className="nav-link" href="#education">
+          {/* <i className="fab fa-laptop" /> */}
+          <span>Éduc. & Compét.</span>
+        </a>
+      </li>
+      <li data-menuanchor="experience">
+        <a className="nav-link" href="#experience">
+          {/* <i className="ti-id-badge" /> */}
+          <span>Expérience</span>
         </a>
       </li>
       <li data-menuanchor="contactus">
         <a className="nav-link" href="#contactus">
-          <i className="ti-map-alt" />
+          {/* <i className="ti-map-alt" /> */}
           <span>Contactez moi</span>
         </a>
       </li>
